@@ -1,3 +1,4 @@
+pypdf2
 pymilvus
 faiss-cpu 
 rank_bm25 
