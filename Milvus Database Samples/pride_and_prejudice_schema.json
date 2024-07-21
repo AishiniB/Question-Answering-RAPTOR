@@ -1,0 +1,40 @@
+{
+  "auto_id": false,
+  "description": "RAPTOR index collection",
+  "fields": [
+    {
+      "name": "id",
+      "description": "",
+      "type": 5,
+      "is_primary": true,
+      "auto_id": false
+    },
+    {
+      "name": "embedding",
+      "description": "",
+      "type": 101,
+      "params": {
+        "dim": 768
+      }
+    },
+    {
+      "name": "text",
+      "description": "",
+      "type": 21,
+      "params": {
+        "max_length": 65535
+      }
+    },
+    {
+      "name": "parent",
+      "description": "",
+      "type": 5
+    },
+    {
+      "name": "children",
+      "description": "",
+      "type": 23
+    }
+  ],
+  "enable_dynamic_field": false
+}
